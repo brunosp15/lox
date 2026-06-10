@@ -47,3 +47,18 @@ var a = "global";
   var a = "block";
   showA();
 }
+
+
+
+class Bagel {}
+var bagel = Bagel();
+print bagel;
+
+
+class Bacon {
+  eat() {
+    print "Crunch crunch crunch!";
+  }
+}
+
+Bacon().eat(); 
